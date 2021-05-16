@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .url_input {
+            height: 40px;
+            width:300px;
+            border: 2px solid black;
+            box-shadow: 0 5px 5px gray;
+            font-size: 30px;
+            padding: "10px auto"
+        }
+    </style>
+</head>
+<body>
+    
+    <img id="bg" src={{url_for('video_feed')}} height=500 width=800  /><br>
+    <form action={{ url_for('video_feed') }} method="Post">
+        <input class="url_input" type="text" name="url" placeholder="Enter url">
+        <input type="submit" value="videoFeed">
+    </form>
+</body>
+</html>
