@@ -4,8 +4,8 @@ This is face recognition project, in which you can recoginze image which is stor
 You can install the requirements by entering the follwing command:
 pip install -r requirements.txt
 
-####If you want to see the project running on web browser then you can enter:
+#### If you want to see the project running on web browser then you can enter:
 python3 main.py
 
-####If you want to see the project running locally then:
+#### If you want to see the project running locally then:
 python3 opencv_recognition.py
